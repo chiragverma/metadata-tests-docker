@@ -25,5 +25,7 @@ npx cypress run
 docker-compose up
 ```
 
+# To trigger tests manually on the CI
 
+go to https://github.com/chiragverma/metadata-tests-docker/actions and trigger the manual workflow
 
