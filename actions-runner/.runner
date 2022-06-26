@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Chirags-MacBook-Air",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/P7IotcbyJ18clrUWdVcFRMStXE7zvL5ATPgqUvHTQauC4xY2Tw",
+  "gitHubUrl": "https://github.com/chiragverma/metadata-tests-docker",
+  "workFolder": "_work"
+}
