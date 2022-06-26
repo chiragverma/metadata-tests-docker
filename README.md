@@ -1,6 +1,5 @@
-#Boiler plate for testing API for the app - https://metadata-server-mock.herokuapp.com/
+# Boiler plate for testing API for the app - https://metadata-server-mock.herokuapp.com/
 
-This uses Cypress 10
 
 
 Tests runs automatically at 12:00 AM daily and also on new commits:
