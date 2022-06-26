@@ -8,15 +8,14 @@ describe('Get metadata property', () => {
     cy.request({
         method: 'GET',
         url: url,
+        
     }).then((response) => {
-            expect(response.status).to.eq(200);
-            expect(response.body).to.not.be.null
-            expect(response.headers['content-type']).to.include('application/json')
-            expect(response.body).to.have.property('sequenceNumber')
-            expect(response.body).to.have.property('value').equal('HappyCoin')
-            expect(response.body).to.have.property('signatures')
-            expect(response.body.signatures[0]).to.have.property('signature')
-            expect(response.body.signatures[0]).to.have.property('publicKey')
+        cy.checkResponseMessage(response)
+        expect(response.body).to.have.property('sequenceNumber')
+        expect(response.body).to.have.property('value').equal('HappyCoin')
+        expect(response.body).to.have.property('signatures')
+        expect(response.body.signatures[0]).to.have.property('signature')
+        expect(response.body.signatures[0]).to.have.property('publicKey')
     })
   })
 });
