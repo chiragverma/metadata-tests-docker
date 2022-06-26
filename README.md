@@ -1,8 +1,8 @@
 # Boiler plate for testing API for the app - https://metadata-server-mock.herokuapp.com/
 
+This uses Cypress and Docker
 
-
-Tests runs automatically at 12:00 AM daily and also on new commits:
+Tests runs automatically at 12:00 AM UTC daily and also on new commits:
 There is a manual workflow in the Actions as well where the tests can be triggered manually
 
 # To run tests locally:
