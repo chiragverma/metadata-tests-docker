@@ -1,3 +1,8 @@
+Boiler plate for testing API for the app - https://metadata-server-mock.herokuapp.com/
+
+This uses Cypress 10
+
+
 # Tests runs automatically at 12:00 AM daily and also on new commits:
 # There is a manual workflow in the Actions as well where the tests can be triggered manually
 
@@ -5,7 +10,6 @@
 
 ```
 git clone https://github.com/chiragverma/metadata-tests-docker.git
-
 ```
 
 ```
