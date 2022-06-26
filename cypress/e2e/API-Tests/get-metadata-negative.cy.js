@@ -2,7 +2,7 @@ import '../../support/commands.js';
 
 const url = ("https://metadata-server-mock.herokuapp.com/metadata/919e8a1922aaa764b1d66407c6f62244e77081215f385b60a62091494861707079436f")
 
-describe('Get metadata not found error', () => {
+describe('Not able to find metadata', () => {
 
   it('Should get metadata not found error', () => {
     cy.request({
