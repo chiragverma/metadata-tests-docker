@@ -4,6 +4,7 @@
 # To run tests locally:
 '''
 git clone https://github.com/chiragverma/metadata-tests-docker.git
+
 '''
 
 cd metadata-tests-docker
