@@ -1,0 +1,205 @@
+[2022-06-26 04:55:23Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO HostContext] Well known config file 'Credentials': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO HostContext] Well known config file 'Runner': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.runner'
+[2022-06-26 04:55:23Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2022-06-26 04:55:23Z INFO Listener] RuntimeInformation: Darwin 17.7.0 Darwin Kernel Version 17.7.0: Fri Oct 30 13:34:27 PDT 2020; root:xnu-4570.71.82.8~1/RELEASE_X86_64.
+[2022-06-26 04:55:23Z INFO Listener] Version: 2.293.0
+[2022-06-26 04:55:23Z INFO Listener] Commit: 7785d8e1045339fbc88b92c9b506d35ed2b7523c
+[2022-06-26 04:55:23Z INFO Listener] Culture: en-US
+[2022-06-26 04:55:23Z INFO Listener] UI Culture: en-US
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO Listener] Validating directory permissions for: '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO CommandLineParser] Parse
+[2022-06-26 04:55:23Z INFO CommandLineParser] Parsing 5 args
+[2022-06-26 04:55:23Z INFO CommandLineParser] parsing argument
+[2022-06-26 04:55:23Z INFO CommandLineParser] HasArgs: False
+[2022-06-26 04:55:23Z INFO CommandLineParser] Adding Command: configure
+[2022-06-26 04:55:23Z INFO CommandLineParser] parsing argument
+[2022-06-26 04:55:23Z INFO CommandLineParser] HasArgs: True
+[2022-06-26 04:55:23Z INFO CommandLineParser] arg: url
+[2022-06-26 04:55:23Z INFO CommandLineParser] parsing argument
+[2022-06-26 04:55:23Z INFO CommandLineParser] HasArgs: True
+[2022-06-26 04:55:23Z INFO CommandLineParser] Adding option 'url': 'https://github.com/chiragverma/metadata-tests-docker'
+[2022-06-26 04:55:23Z INFO CommandLineParser] parsing argument
+[2022-06-26 04:55:23Z INFO CommandLineParser] HasArgs: True
+[2022-06-26 04:55:23Z INFO CommandLineParser] arg: token
+[2022-06-26 04:55:23Z INFO CommandLineParser] parsing argument
+[2022-06-26 04:55:23Z INFO CommandLineParser] HasArgs: True
+[2022-06-26 04:55:23Z INFO CommandLineParser] Adding option 'token': '***'
+[2022-06-26 04:55:23Z INFO Listener] Arguments parsed
+[2022-06-26 04:55:23Z INFO Runner] ExecuteCommand
+[2022-06-26 04:55:23Z INFO ConfigurationStore] currentAssemblyLocation: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin/Runner.Listener.dll
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO ConfigurationStore] binPath: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO ConfigurationStore] RootFolder: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO HostContext] Well known config file 'Runner': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.runner'
+[2022-06-26 04:55:23Z INFO ConfigurationStore] ConfigFilePath: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.runner
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO HostContext] Well known config file 'Credentials': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials'
+[2022-06-26 04:55:23Z INFO ConfigurationStore] CredFilePath: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_migrated'
+[2022-06-26 04:55:23Z INFO ConfigurationStore] MigratedCredFilePath: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_migrated
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:23Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:23Z INFO HostContext] Well known config file 'Service': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.service'
+[2022-06-26 04:55:23Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.service
+[2022-06-26 04:55:23Z INFO CommandSettings] Flag 'help': 'False'
+[2022-06-26 04:55:23Z INFO CommandSettings] Flag 'version': 'False'
+[2022-06-26 04:55:23Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-06-26 04:55:23Z INFO CommandSettings] Flag 'check': 'False'
+[2022-06-26 04:55:23Z INFO CommandSettings] Command 'configure': 'True'
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |                                                                              |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE: |                       
+[2022-06-26 04:55:23Z INFO Terminal] WRITE: Self-hosted runner registration
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE:                         |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: |                                                                              |
+[2022-06-26 04:55:23Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2022-06-26 04:55:23Z INFO ConfigurationManager] ConfigureAsync
+[2022-06-26 04:55:23Z INFO ConfigurationStore] IsConfigured()
+[2022-06-26 04:55:23Z INFO ConfigurationStore] IsConfigured: False
+[2022-06-26 04:55:23Z INFO ConfigurationManager] Is configured: False
+[2022-06-26 04:55:23Z INFO CommandSettings] Arg 'url': 'https://github.com/chiragverma/metadata-tests-docker'
+[2022-06-26 04:55:23Z INFO CommandSettings] Remove url from Arg dictionary.
+[2022-06-26 04:55:23Z INFO CommandSettings] Arg 'token': '***'
+[2022-06-26 04:55:23Z INFO CommandSettings] Remove token from Arg dictionary.
+[2022-06-26 04:55:24Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2022-06-26 04:55:24Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2022-06-26 04:55:24Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-06-26 04:55:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-06-26 04:55:24Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-06-26 04:55:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-06-26 04:55:24Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-06-26 04:55:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-06-26 04:55:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-06-26 04:55:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-06-26 04:55:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-06-26 04:55:26Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:26Z INFO ConfigurationManager] Test Connection complete.
+[2022-06-26 04:55:26Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:26Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:26Z INFO HostContext] Well known config file 'RSACredentials': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_rsaparams'
+[2022-06-26 04:55:26Z INFO RSAFileKeyManager] Found existing RSA key parameters file /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_rsaparams
+[2022-06-26 04:55:26Z INFO CommandSettings] Arg 'runnergroup': ''
+[2022-06-26 04:55:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-06-26 04:55:26Z INFO PromptManager] ReadValue
+[2022-06-26 04:55:26Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2022-06-26 04:55:26Z INFO Terminal] WRITE: [press Enter for Default] 
+[2022-06-26 04:55:26Z INFO Terminal] READ LINE
+[2022-06-26 04:55:29Z INFO Terminal] Read value: ''
+[2022-06-26 04:55:29Z INFO PromptManager] Falling back to the default: 'Default'
+[2022-06-26 04:55:29Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:29Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2022-06-26 04:55:29Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2022-06-26 04:55:29Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2022-06-26 04:55:29Z INFO CommandSettings] Arg 'name': ''
+[2022-06-26 04:55:29Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-06-26 04:55:29Z INFO PromptManager] ReadValue
+[2022-06-26 04:55:29Z INFO Terminal] WRITE: Enter the name of runner: 
+[2022-06-26 04:55:29Z INFO Terminal] WRITE: [press Enter for Chirags-MacBook-Air] 
+[2022-06-26 04:55:29Z INFO Terminal] READ LINE
+[2022-06-26 04:55:31Z INFO Terminal] Read value: ''
+[2022-06-26 04:55:31Z INFO PromptManager] Falling back to the default: 'Chirags-MacBook-Air'
+[2022-06-26 04:55:31Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:31Z INFO CommandSettings] Arg 'labels': ''
+[2022-06-26 04:55:31Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-06-26 04:55:31Z INFO PromptManager] ReadValue
+[2022-06-26 04:55:31Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2022-06-26 04:55:31Z INFO Terminal] WRITE: [press Enter to skip] 
+[2022-06-26 04:55:31Z INFO Terminal] READ LINE
+[2022-06-26 04:55:38Z INFO Terminal] Read value: ''
+[2022-06-26 04:55:38Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:38Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2022-06-26 04:55:39Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2022-06-26 04:55:39Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2022-06-26 04:55:39Z INFO ConfigurationStore] Saving OAuth credential @ /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials
+[2022-06-26 04:55:39Z INFO ConfigurationStore] Credentials Saved.
+[2022-06-26 04:55:39Z INFO ConfigurationStore] HasCredentials()
+[2022-06-26 04:55:39Z INFO ConfigurationStore] stored True
+[2022-06-26 04:55:39Z INFO CredentialManager] GetCredentialProvider
+[2022-06-26 04:55:39Z INFO CredentialManager] Creating type OAuth
+[2022-06-26 04:55:39Z INFO CredentialManager] Creating credential type: OAuth
+[2022-06-26 04:55:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_rsaparams
+[2022-06-26 04:55:39Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-06-26 04:55:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-06-26 04:55:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-06-26 04:55:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-06-26 04:55:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-06-26 04:55:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-06-26 04:55:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-06-26 04:55:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-06-26 04:55:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-06-26 04:55:41Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: cd0b581e-0a00-45c2-beb5-eadb71f44763
+ActivityId: 7499090e-ad6a-49f1-a782-9950246fa691
+X-TFS-Session: d9511aa2-9b92-4fd9-8f7c-bed06cbb7b28
+X-VSS-E2EID: 5b5dd8d0-2824-441b-8dcf-1fef3aa5bb13
+X-VSS-SenderDeploymentId: fc1cfc90-fc40-edcb-6d0f-3b1380ee7b68
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 1224AC425AC04593961470594F75DFCC Ref B: SGN30EDGE0412 Ref C: 2022-06-26T04:55:40Z
+Date: Sun, 26 Jun 2022 04:55:40 GMT
+
+[2022-06-26 04:55:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_rsaparams
+[2022-06-26 04:55:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/.credentials_rsaparams
+[2022-06-26 04:55:42Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-06-26 04:55:43Z INFO CommandSettings] Arg 'work': ''
+[2022-06-26 04:55:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-06-26 04:55:43Z INFO PromptManager] ReadValue
+[2022-06-26 04:55:43Z INFO Terminal] WRITE: Enter name of work folder: 
+[2022-06-26 04:55:43Z INFO Terminal] WRITE: [press Enter for _work] 
+[2022-06-26 04:55:43Z INFO Terminal] READ LINE
+[2022-06-26 04:55:47Z INFO Terminal] Read value: ''
+[2022-06-26 04:55:47Z INFO PromptManager] Falling back to the default: '_work'
+[2022-06-26 04:55:47Z INFO ConfigurationStore] Saving runner settings.
+[2022-06-26 04:55:47Z INFO ConfigurationStore] Settings Saved.
+[2022-06-26 04:55:47Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:47Z INFO Terminal] WRITE LINE: 
+[2022-06-26 04:55:47Z INFO OsxServiceControlManager] Service name 'actions.runner.chiragverma-metadata-tests-docker.Chirags-MacBook-Air' display name 'GitHub Actions Runner (chiragverma-metadata-tests-docker.Chirags-MacBook-Air)' will be used for service configuration.
+[2022-06-26 04:55:47Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:47Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:47Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:47Z INFO HostContext] Well known directory 'Bin': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/bin'
+[2022-06-26 04:55:47Z INFO HostContext] Well known directory 'Root': '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:47Z INFO UnixUtil] Which: 'chmod'
+[2022-06-26 04:55:47Z INFO UnixUtil] Location: '/bin/chmod'
+[2022-06-26 04:55:47Z INFO UnixUtil] Running /bin/chmod 755 "/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/svc.sh"
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper] Starting process:
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner/svc.sh"'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Working directory: '/Users/chiragverma/Desktop/metadata-tests-docker/actions-runner'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper] Process started with process id 73077, waiting for process exit.
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-06-26 04:55:47Z INFO ProcessInvokerWrapper] Finished process 73077 with exit code 0, and elapsed time 00:00:00.0317555.
+[2022-06-26 04:55:47Z INFO Listener] Runner execution has finished with return code 0

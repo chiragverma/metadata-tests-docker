@@ -1,15 +1,18 @@
 import '../../support/commands.js';
 
+const url = ("http://localhost:4441/metadata/query")
+const body = {
+  "subjects": ["919e8a1922aaa764b1d66407c6f62244e77081215f385b60a62091494861707079436f696e",
+        "789ef8ae89617f34c07f7f6a12e4d65146f958c0bc15a97b4ff169f1"]
+}
+
 describe('Create metadata', () => {
     
   it('Should create a metadata', () => {
     cy.request({
         method: 'POST',
-        url: 'http://localhost:4441/metadata/query',
-        body: {
-            "subjects": ["919e8a1922aaa764b1d66407c6f62244e77081215f385b60a62091494861707079436f696e",
-                  "789ef8ae89617f34c07f7f6a12e4d65146f958c0bc15a97b4ff169f1"]
-        }
+        url: url,
+        body: body
     }).then((response) => {
             expect(response.status).to.eq(200);
             expect(response.body).to.not.be.null
@@ -24,5 +27,4 @@ describe('Create metadata', () => {
             expect(response.body.subjects[0]).to.have.property('description')
     })
   })
-
 });
