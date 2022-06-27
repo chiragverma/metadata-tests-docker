@@ -18,4 +18,5 @@ describe('Get metadata property', () => {
         expect(response.body.signatures[0]).to.have.property('publicKey')
     })
   })
+  
 });
