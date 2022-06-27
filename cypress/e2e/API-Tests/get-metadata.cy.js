@@ -21,4 +21,5 @@ describe('Get metadata', () => {
         expect(response.body.description.value).equal('Coin with asset name - and everyone is happy!!!')
     })
   })
+  
 });
